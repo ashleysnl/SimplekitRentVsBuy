@@ -29,3 +29,7 @@
  .sk-v2[data-v2-calculator="rent-vs-buy-calculator"] :where(.form-grid,.field-grid,.advanced-grid,.input-grid,.salary-grid,.calculator-grid,.group-grid,.hero-grid,.settings-inline-grid) { grid-template-columns:minmax(0,1fr); }
  .sk-v2[data-v2-calculator="rent-vs-buy-calculator"] :where(.form-actions,.toolbar-actions,.action-group,.wizard-actions,.backup-actions) { flex-wrap:wrap; }
 }
+
+/* Final responsive and contrast QA. */
+.sk-v2[data-v2-calculator="rent-vs-buy-calculator"] .hero-aside,.hero-insight,.hero-mini-grid>div { min-width:0; }
+.sk-v2[data-v2-calculator="rent-vs-buy-calculator"] .hero-aside { width:auto; }
